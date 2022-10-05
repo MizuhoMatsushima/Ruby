@@ -1,6 +1,6 @@
 abc = [:A, :B, :C, :D, :E, :F, :J, :K, :Q, :T, :V, :W, :X, :Y, :Z]
 
-abc_5 = abc.repeated_combination(5).to_a
+abc_5 = abc.repeated_permutation(5).to_a
 
 cba = []
 
@@ -12,5 +12,4 @@ abc_5.each do |abc|
   end
 end
 
-pp cba
 p cba.size
