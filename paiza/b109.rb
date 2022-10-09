@@ -38,7 +38,7 @@ end
 c = 0
 m_distance.each do |m|
     if m == m_distance.min
-        puts vacant_seat[c][0].to_s + " " + vacant_seat[c][1].to_s
+        puts vacant_seat[c].join(' ')
     end
     c += 1
 end
