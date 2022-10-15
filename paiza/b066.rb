@@ -36,5 +36,5 @@ end
 #
 #end
 
-#pp puzzle_pe
-#pp peace
+pp puzzle_pe
+pp peace
