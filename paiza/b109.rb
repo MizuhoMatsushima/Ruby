@@ -1,3 +1,4 @@
+#最初の初期値を受け取る
 nhwpq = gets.split(' ')
 nhwpq_int = []
 nhwpq.each do |n|
@@ -37,6 +38,8 @@ vacant_seat.each do |v|
 end
 
 c = 0
+
+#マンハッタン距離が最小の配列のみ表示
 m_distance.each do |m|
     if m == m_distance.min
         puts vacant_seat[c].join(' ')
