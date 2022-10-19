@@ -32,9 +32,7 @@ for i in 1..by do
     peace << gets.chomp.chars
 end
 
-#for i in 1..xnm_i[1] do
-#
-#end
+
 
 pp puzzle_pe
 #pp peace
