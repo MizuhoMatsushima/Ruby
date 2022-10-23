@@ -8,30 +8,32 @@ xnm.each do |xnm|
     xnm_i << xnm.to_i
 end
 
-puzzle = []
-for i in 1..xnm_i[1] do
-    puzzle << gets.chomp.chars
-end
+puts xnm_i
 
-puzzle_pe = []
-n_m = (xnm_i[1]*xnm_i[1]) / (xnm_i[2] * xnm_i[2])
+#puzzle = []
+#for i in 1..xnm_i[1] do
+#     puzzle << gets.chomp.chars
+# end
 
-n = xnm_i[2]
-for i in 1..n_m do
-    for t in (n - xnm_i[2])..(n - 1) do
-        puzzle_pe << puzzle[i-1][i-1..n-1] + puzzle[i][i-1..n-1]
-        pp puzzle_pe
-        n += xnm_i[2]
-        i += xnm_i[2]
-    end
-end
+# puzzle_pe = []
+# n_m = (xnm_i[1]*xnm_i[1]) / (xnm_i[2] * xnm_i[2])
+
+# n = xnm_i[2]
+# for i in 1..n_m do
+#     for t in (n - xnm_i[2])..(n - 1) do
+#         puzzle_pe << puzzle[i-1][i-1..n-1] + puzzle[i][i-1..n-1]
+#         pp puzzle_pe
+#         n += xnm_i[2]
+#         i += xnm_i[2]
+#     end
+# end
 
 
-by = xnm_i[1] * xnm_i[2]
-peace = []
-for i in 1..by do
-    peace << gets.chomp.chars
-end
+# by = xnm_i[1] * xnm_i[2]
+# peace = []
+# for i in 1..by do
+#     peace << gets.chomp.chars
+# end
 
 
 
