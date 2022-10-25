@@ -8,7 +8,7 @@ xnm.each do |xnm|
     xnm_i << xnm.to_i
 end
 
-puts xnm_i
+#puts xnm_i
 
 #puzzle = []
 #for i in 1..xnm_i[1] do
