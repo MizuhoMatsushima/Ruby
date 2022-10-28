@@ -8,7 +8,7 @@ end
 reserved_seat = []
 k = []
 #予約された席を取得し、文字列から数値へ変換
-for i in 1..nhwpq_int[0] do
+for _i in 1..nhwpq_int[0] do
     f = gets.split(' ')
     f.each do |f|
         k << f.to_i
