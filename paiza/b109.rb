@@ -17,7 +17,8 @@ for _i in 1..nhwpq_int[0] do
     k = []
 end
 
-vacant_seat = []#空席の配列用
+#空席の配列用
+vacant_seat = []
 
 #空席の配列を作る
 #縦席
