@@ -10,9 +10,14 @@ for _i in 1..s.to_i do
 end
 
 average = []
-for i in 1..(s.to_i - e.to_i + 1) do
-    average << (rainy_percent[i-1] + rainy_percent[i] + rainy_percent[i+1]) / e.to_i
+for i in 0..(s.to_i - e.to_i) do
+    rain = []
+    for w in i..(i + e.to_i - 1) do
+        rain << rainy_percent[w]
+    end
+    average << rain.sum / e.to_i
 end
+
 
 average_min = average.index(average.min)
 last_day = day[e.to_i - 1 + average_min]
